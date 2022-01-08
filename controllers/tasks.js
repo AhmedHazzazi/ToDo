@@ -5,7 +5,6 @@ module.exports = {
         Task.find({}, (error, tasks)=>{
             if(error) console.log(`there was an error: ${error}`);
             else {
-                // tasks.forEach(task => console.log(task));
                 res.render("todo.ejs", {todotasks: tasks});
             }
         });
