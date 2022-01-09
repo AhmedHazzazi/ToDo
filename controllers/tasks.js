@@ -1,4 +1,4 @@
-const Task = require("../models/tasks");
+const Task = require('../models/tasks');
 
 module.exports = {
     index: (req, res)=>{

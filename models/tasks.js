@@ -7,3 +7,4 @@ const schema = new mongoose.Schema({
     }
 });
 const Task = mongoose.model('Task', schema);
+module.exports = Task;
